@@ -1,0 +1,11 @@
+@media (max-width: 680px) {
+  .mobile-toggle { border:0; background:none; color:inherit; display:grid; place-items:center; padding:0; cursor:pointer; }
+  .mobile-nav-bg { display:block; position:fixed; inset:0; z-index:40; background:#2e242155; backdrop-filter:blur(3px); }
+  .mobile-nav { width:278px; height:100%; background:#fffdfb; padding:23px 14px; box-shadow:15px 0 35px #30231f33; overflow:auto; }
+  .mobile-nav .brand { padding:0 8px 22px; }
+  .mobile-nav .brand > div:last-child, .mobile-nav .nav span { display:block; }
+  .mobile-nav .brand button { margin-left:auto; border:0; background:none; color:#786963; cursor:pointer; }
+  .mobile-nav .nav { justify-content:flex-start; padding:11px 12px; }
+  .mobile-nav .nav svg { width:18px; height:18px; }
+}
+@media (max-width: 680px) { .dark .mobile-nav { background:#2c2725; } }
